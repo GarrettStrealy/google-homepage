@@ -1,0 +1,152 @@
+body {
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+div {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav {
+	display: inline-block;
+	padding-top: 15px;
+}
+
+.nav a {
+	padding-left: 15px;
+}
+
+.navr {
+	float: right;
+	padding-right: 15px;
+}
+
+
+#center {
+	position: relative;
+	top: 50px;
+}
+
+img {
+	height: 92px;
+	width: 272px;
+	padding-top: 109px;
+}
+
+#search {
+	padding-top: 25px;
+}
+
+.search {
+	width: 500px;
+	height: 44px;
+	padding: 6px 9px 0 16px;
+	font-size: 16px;
+	vertical-align: top;
+	box-sizing: border-box;
+	background: #fff;
+	line-height: 0;
+	white-space: nowrap;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.16);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.search:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.button:hover {
+	border: 1px solid #c6c6c6;
+	color: #222;
+	background-color: #f8f8f8;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.lbutton {
+	display: inline-block;
+	background-color: #f2f2f2;
+	height: 36px;
+	line-height: 27px;
+	width: 125px;
+	padding: 0 16px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 23px 4px;
+	min-width: 54px;
+	text-align: center;
+	box-sizing: border-box;
+	align-items: flex-start;
+	-webkit-appearance: push-button;
+	white-space: pre;
+}
+
+.rbutton {
+	display: inline-block;
+	background-color: #f2f2f2;
+	height: 36px;
+	line-height: 27px;
+	width: 135px;
+	padding: 0 16px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 23px 4px;
+	min-width: 54px;
+	text-align: center;
+	box-sizing: border-box;
+	align-items: flex-start;
+	-webkit-appearance: push-button;
+	white-space: pre;
+}
+
+.rbutton {
+	width: 150px;
+}
+
+#foot {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	line-height: 40px;
+	border-top: 1px solid #e4e4e4;
+	background: #f2f2f2;
+	min-width: 980px;
+}
+
+.foot {
+	display: inline-block;
+}
+
+.foot a {
+	color: #666;
+	padding: 0 20px 0 3px;
+
+}
+
+.footl {
+	padding-left: 17px;
+
+}
+
+.footr {
+	float: right;
+	padding-right: 15px;
+}
